@@ -1,0 +1,118 @@
+.sectionC .wrapper{
+    margin:0 auto;
+    padding-top:1rem;
+}
+.sectionC .wrapper .wrap{
+    display:flex;
+    justify-content:space-evenly;
+    width:90%;
+}
+.sectionC .wrapper .cont,.sectionC .wrapper .wallet{
+    padding:0.2rem 1rem;
+    margin:0;
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+}
+.sectionC .wrapper .cont{
+    border-radius: 0.8rem;
+    background-color: rgb(144, 144, 144);
+}
+.sectionC .wrapper .wallet{
+    border-radius: 0.6rem;
+    border:0.15rem solid  #3772FF;
+}
+
+.sectionC .wrapper .cont img{
+    height:1.5rem;
+    width:1.5rem;
+    margin-right:-0.7rem;
+}
+.sectionC .wrapper .cont p,.sectionC .wrapper .wallet p{
+    padding:0;
+    margin:auto 1rem;
+}
+.sectionC .wrapper .wallet .icon1{
+    color: #3772FF;
+}
+
+/*end of wrap*/
+
+/* start of wrapB*/
+.sectionC .wrapper .wrapB{
+    margin-top:2rem;
+}
+.sectionC .wrapper .wrapB .divA{
+    margin:0;
+    padding:0.2rem 1rem;
+}
+.sectionC .wrapper .wrapB .icon{
+    margin-bottom:0.2rem;
+}
+.sectionC .wrapper .wrapB .divA p{
+    display:inline-block;
+    margin:auto 0;
+    padding-left:1rem;
+    font-size: 1.2rem;
+}
+.sectionC .wrapper .wrapB .divB{
+    padding:0.2rem 0;
+
+}
+.sectionC .wrapper .wrapB .divB p{
+    width:80%;
+    padding:0.2rem 1.8rem;
+    font-size:1.1rem;
+    
+}
+.sectionC .wrapper .wrapB .divB div{
+    width:80%;
+    margin-left:1.5rem;
+    padding:0.2rem 0;
+    border-radius: 0.4rem;
+    background-color:rgb(51, 51, 51);
+}
+.sectionC .wrapper .wrapB .divB input{
+    width:100%;
+    height:2.5rem;
+    outline:none;
+    background-color: rgb(51, 51, 51);
+    border-radius:0.4rem;
+    color:white;
+    padding-left:1rem;
+    border:none;
+}
+
+.sectionC .wrapper .wrapB .divB input::placeholder{
+    color:white;
+}
+
+
+.sectionC .wrapB .divC{
+    display:flex;
+    padding:1rem 2rem;
+} 
+.sectionC .wrapB .divC div {
+    margin:auto 1rem;
+    padding:0.3rem 0.5rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+.sectionC .wrapB .divC div:first-child{
+    background-color: #3772FF
+}
+.sectionC .wrapB .divC div:last-child{
+    border:0.12rem solid rgb(87, 87, 87);
+}
+.sectionC .wrapB .divC div:last-child:hover{
+    background-color:rgb(156, 156, 156);
+}
+.sectionC .wrapB .divC p{
+    margin:0  0.5rem;
+    display: inline-block;
+    font-weight:bold
+
+}
+.sectionC .wrapB .divC .icon{
+    margin-left:0.5rem;
+}
